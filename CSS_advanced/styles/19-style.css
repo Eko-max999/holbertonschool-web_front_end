@@ -535,3 +535,9 @@ a:active {
 .card-category {
   color: var(--color-primary);
 }
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
